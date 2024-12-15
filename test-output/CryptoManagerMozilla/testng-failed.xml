@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CryptoManagerMozilla]">
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Mozilla-Bitcoin test(failed)">
+    <parameter name="browser" value="Mozilla"/>
+    <parameter name="name" value="Bitcoin"/>
+    <parameter name="threshold" value="100,000.00"/>
+    <classes>
+      <class name="CryptoManager.TestFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getData" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- CryptoManager.TestFile -->
+    </classes>
+  </test> <!-- Mozilla-Bitcoin test(failed) -->
+  <test thread-count="5" name="Mozilla-Ethereum test(failed)">
+    <parameter name="browser" value="Mozilla"/>
+    <parameter name="name" value="Ethereum"/>
+    <parameter name="threshold" value="3,800.00"/>
+    <classes>
+      <class name="CryptoManager.TestFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getData" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- CryptoManager.TestFile -->
+    </classes>
+  </test> <!-- Mozilla-Ethereum test(failed) -->
+  <test thread-count="5" name="Mozilla-Aptos test(failed)">
+    <parameter name="browser" value="Mozilla"/>
+    <parameter name="name" value="Aptos"/>
+    <parameter name="threshold" value="13.00"/>
+    <classes>
+      <class name="CryptoManager.TestFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getData" invocation-numbers="0"/>
+          <include name="searchCrypto" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- CryptoManager.TestFile -->
+    </classes>
+  </test> <!-- Mozilla-Aptos test(failed) -->
+</suite> <!-- Failed suite [CryptoManagerMozilla] -->

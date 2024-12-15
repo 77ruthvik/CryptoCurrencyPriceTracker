@@ -1,0 +1,21 @@
+{
+    "browsers": ["Chrome", "Mozilla"],
+    "parallel": "1",
+    "CryptoSuites": [
+        {
+            "runmode": "Y",
+            "name": "Bitcoin",
+            "threshold": "100,000.00"
+        },
+        {
+            "runmode": "Y",
+            "name": "Ethereum",
+            "threshold": "3,800.00"
+        },
+        {
+            "runmode": "Y",
+            "name": "Aptos",
+            "threshold": "13.00"
+        }
+    ]
+}

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-java"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="jspecify"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.0.0"/>
+			<attribute name="maven.groupId" value="org.jspecify"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="auto-service-annotations"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.1.1"/>
+			<attribute name="maven.groupId" value="com.google.auto.service"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-chromium-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-json"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-manager"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-devtools-v128"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-devtools-v129"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-devtools-v130"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-devtools-v85"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-edge-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-firefox-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-http"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="failsafe"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.3.2"/>
+			<attribute name="maven.groupId" value="dev.failsafe"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-ie-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-remote-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="guava"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="33.3.1-jre"/>
+			<attribute name="maven.groupId" value="com.google.guava"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="failureaccess"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.0.2"/>
+			<attribute name="maven.groupId" value="com.google.guava"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="listenablefuture"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="9999.0-empty-to-avoid-conflict-with-guava"/>
+			<attribute name="maven.groupId" value="com.google.guava"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="jsr305"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.0.2"/>
+			<attribute name="maven.groupId" value="com.google.code.findbugs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="checker-qual"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.43.0"/>
+			<attribute name="maven.groupId" value="org.checkerframework"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="error_prone_annotations"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="2.28.0"/>
+			<attribute name="maven.groupId" value="com.google.errorprone"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="j2objc-annotations"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.0.0"/>
+			<attribute name="maven.groupId" value="com.google.j2objc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-semconv"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.25.0-alpha"/>
+			<attribute name="maven.groupId" value="io.opentelemetry.semconv"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-api"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-context"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-exporter-logging"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-common"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-extension-autoconfigure-spi"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-extension-autoconfigure"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-api-incubator"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.scope" value="runtime"/>
+			<attribute name="maven.version" value="1.43.0-alpha"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-trace"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-metrics"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="opentelemetry-sdk-logs"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.43.0"/>
+			<attribute name="maven.groupId" value="io.opentelemetry"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="byte-buddy"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.15.7"/>
+			<attribute name="maven.groupId" value="net.bytebuddy"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-os"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="commons-exec"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.4.0"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-safari-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="selenium-support"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.26.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="commons-io"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="2.6"/>
+			<attribute name="maven.groupId" value="commons-io"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/apache/httpcomponents/fluent-hc/4.5.6/fluent-hc-4.5.6.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="fluent-hc"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.5.6"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="httpclient"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.5.6"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="httpcore"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.4.10"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="commons-logging"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.2"/>
+			<attribute name="maven.groupId" value="commons-logging"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="commons-httpclient"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.1"/>
+			<attribute name="maven.groupId" value="commons-httpclient"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="commons-codec"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.2"/>
+			<attribute name="maven.groupId" value="commons-codec"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="7.0.0"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/rvarm/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="jcommander"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.72"/>
+			<attribute name="maven.groupId" value="com.beust"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.0.9"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/rvarm/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="com.aventstack"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="freemarker"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="2.3.23"/>
+			<attribute name="maven.groupId" value="org.freemarker"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="mongodb-driver"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.3.0"/>
+			<attribute name="maven.groupId" value="org.mongodb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="mongodb-driver-core"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.3.0"/>
+			<attribute name="maven.groupId" value="org.mongodb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="bson"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="3.3.0"/>
+			<attribute name="maven.groupId" value="org.mongodb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="httpmime"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="4.5.2"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="gson"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="2.8.5"/>
+			<attribute name="maven.groupId" value="com.google.code.gson"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="javax.mail"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.6.2"/>
+			<attribute name="maven.groupId" value="com.sun.mail"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="activation"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.1"/>
+			<attribute name="maven.groupId" value="javax.activation"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="c:/Users/rvarm/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar">
+		<attributes>
+			<attribute name="maven.artifactId" value="json-simple"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="maven.version" value="1.1"/>
+			<attribute name="maven.groupId" value="com.googlecode.json-simple"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T19:33:34 EST" name="CryptoManagerMozilla" finished-at="2024-12-14T19:35:08 EST" duration-ms="93631">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T19:33:34 EST" name="Mozilla-Bitcoin test" finished-at="2024-12-14T19:34:09 EST" duration-ms="34892">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:33:34 EST" name="beforeTest" finished-at="2024-12-14T19:33:34 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:33:34 EST" name="beforeMethod" finished-at="2024-12-14T19:33:34 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:33:34 EST" name="searchCrypto" finished-at="2024-12-14T19:34:08 EST" duration-ms="33381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:34:08 EST" name="beforeMethod" finished-at="2024-12-14T19:34:08 EST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:34:08 EST" name="getData" finished-at="2024-12-14T19:34:09 EST" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@6351929a]" started-at="2024-12-14T19:34:09 EST" name="afterTest" finished-at="2024-12-14T19:34:09 EST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716e73c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Mozilla-Bitcoin test -->
+    <test started-at="2024-12-14T19:34:09 EST" name="Mozilla-Ethereum test" finished-at="2024-12-14T19:34:30 EST" duration-ms="20572">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:09 EST" name="beforeTest" finished-at="2024-12-14T19:34:09 EST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:09 EST" name="beforeMethod" finished-at="2024-12-14T19:34:09 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:09 EST" name="searchCrypto" finished-at="2024-12-14T19:34:28 EST" duration-ms="18871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:28 EST" name="beforeMethod" finished-at="2024-12-14T19:34:28 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:28 EST" name="getData" finished-at="2024-12-14T19:34:29 EST" duration-ms="1416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@237fa707]" started-at="2024-12-14T19:34:29 EST" name="afterTest" finished-at="2024-12-14T19:34:30 EST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@158e7748]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Mozilla-Ethereum test -->
+    <test started-at="2024-12-14T19:34:30 EST" name="Mozilla-Aptos test" finished-at="2024-12-14T19:35:08 EST" duration-ms="38012">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:34:30 EST" name="beforeTest" finished-at="2024-12-14T19:34:30 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:34:30 EST" name="beforeMethod" finished-at="2024-12-14T19:34:30 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:34:30 EST" name="searchCrypto" finished-at="2024-12-14T19:35:06 EST" duration-ms="36395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:35:06 EST" name="beforeMethod" finished-at="2024-12-14T19:35:06 EST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:35:06 EST" name="getData" finished-at="2024-12-14T19:35:08 EST" duration-ms="1370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@52c25b31]" started-at="2024-12-14T19:35:08 EST" name="afterTest" finished-at="2024-12-14T19:35:08 EST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7526fcc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Mozilla-Aptos test -->
+  </suite> <!-- CryptoManagerMozilla -->
+  <suite started-at="2024-12-14T19:32:42 EST" name="CryptoManagerChrome" finished-at="2024-12-14T19:33:34 EST" duration-ms="52214">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T19:32:42 EST" name="Chrome-Bitcoin test" finished-at="2024-12-14T19:33:01 EST" duration-ms="18987">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:32:42 EST" name="beforeTest" finished-at="2024-12-14T19:32:42 EST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:32:42 EST" name="beforeMethod" finished-at="2024-12-14T19:32:42 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:32:42 EST" name="searchCrypto" finished-at="2024-12-14T19:32:59 EST" duration-ms="16773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:32:59 EST" name="beforeMethod" finished-at="2024-12-14T19:32:59 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:32:59 EST" name="getData" finished-at="2024-12-14T19:33:00 EST" duration-ms="1267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@70bfde5a]" started-at="2024-12-14T19:33:00 EST" name="afterTest" finished-at="2024-12-14T19:33:01 EST" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76abe370]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Chrome-Bitcoin test -->
+    <test started-at="2024-12-14T19:33:01 EST" name="Chrome-Ethereum test" finished-at="2024-12-14T19:33:18 EST" duration-ms="16496">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:01 EST" name="beforeTest" finished-at="2024-12-14T19:33:01 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:01 EST" name="beforeMethod" finished-at="2024-12-14T19:33:01 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:01 EST" name="searchCrypto" finished-at="2024-12-14T19:33:16 EST" duration-ms="15216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:16 EST" name="beforeMethod" finished-at="2024-12-14T19:33:16 EST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:16 EST" name="getData" finished-at="2024-12-14T19:33:17 EST" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5a03e67e]" started-at="2024-12-14T19:33:17 EST" name="afterTest" finished-at="2024-12-14T19:33:18 EST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1d6f75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Chrome-Ethereum test -->
+    <test started-at="2024-12-14T19:33:18 EST" name="Chrome-Aptos test" finished-at="2024-12-14T19:33:34 EST" duration-ms="16594">
+      <class name="CryptoManager.TestFile">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:18 EST" name="beforeTest" finished-at="2024-12-14T19:33:18 EST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:18 EST" name="beforeMethod" finished-at="2024-12-14T19:33:18 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCrypto(org.testng.ITestContext)[pri:1, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:18 EST" name="searchCrypto" finished-at="2024-12-14T19:33:33 EST" duration-ms="15116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCrypto -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:33 EST" name="beforeMethod" finished-at="2024-12-14T19:33:33 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getData(org.testng.ITestContext)[pri:2, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:33 EST" name="getData" finished-at="2024-12-14T19:33:34 EST" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:CryptoManager.TestFile@5737e347]" started-at="2024-12-14T19:33:34 EST" name="afterTest" finished-at="2024-12-14T19:33:34 EST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b9861b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CryptoManager.TestFile -->
+    </test> <!-- Chrome-Aptos test -->
+  </suite> <!-- CryptoManagerChrome -->
+</testng-results>
