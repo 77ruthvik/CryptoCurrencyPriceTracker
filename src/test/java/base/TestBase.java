@@ -48,9 +48,9 @@ public class TestBase {
         app = (ApplicationKeywords) context.getAttribute("app");
         rep = (ExtentReports) context.getAttribute("report");
 
-        //if(app!=null) {
-          //  app.quit();
-        //}
+        if(app!=null) {
+            app.quit();
+        }
 
         if(rep!=null) {
             rep.flush();
